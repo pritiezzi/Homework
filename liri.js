@@ -1,7 +1,12 @@
 
-// var axios = require ('axios');
-// var command = process.argv [2]
-// var Spotify = require('node-spotify-api');
+var axios = require ('axios');
+var command = process.argv [2]
+var Spotify = require('node-spotify-api');
+var request = require("request");
+var input = process.argv[3];
+var keys = require("./keys.js");
+var fs = require("fs");
+var spotify = new Spotify(keys.spotify);
 
 // if (command==="spotify-this-song"){
 //     spotifyThisSong()
@@ -9,11 +14,11 @@
     
 // }
 
-// function spotifyThisSong (){
-//     var spotify = new Spotify({
+function spotifyThisSong (){
+    var spotify = new Spotify({
       id:"7f28e30b7b89450d82d9b77c020be00c",
       secret:"e9186560f3f64bf79c3fa3d3583d0efb",
-//     });
+    });
      
 //     spotify
 //     .search({ type: 'track', query: 'All the Small Things' })
@@ -24,16 +29,6 @@
 //       console.log(err);
 //     });
 // }
-
-require("dotenv").config();
-var request = require("request");
-var moment = require("moment");
-var Spotify = require("node-spotify-api");
-var keys = require("./keys.js");
-var fs = require("fs");
-var spotify = new Spotify(keys.spotify);
-var command = process.argv[2];
-var input = process.argv[3];
 
 if(command == "concert-this"){
     var bisURL = "https://rest.bandsintown.com/artists/" + input + "/events?app_id=codingbootcamp";
@@ -203,5 +198,4 @@ else if(command == "do-what-it-says"){
 }
 else{
     console.log("Please input a correct command.");
-}
-
+}}
