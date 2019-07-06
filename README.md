@@ -22,11 +22,11 @@ add a .env file with the following, 'SPOTIFY_ID=your_spotify_id_here' and 'SPOTI
 
 ## Commands
 Note: if the band name, song name, or movie name is more than one word, the user must place the input in quotation marks ("").
-* node liri.js concert-this bandName: This command will allow the user to search the Bandsintown API for the upcoming events 
-  of the band that was inputted, and will print the name of the venue, the location of the venue, and the date (MM/DD/YYYY).
 * node liri.js spotify-this-song songName: This command will allow the user to search the Spotify API for that song, and 
   will print the artist of that song, the song name, a link to the Spotify page for that song, and the name of the album that
   song came from.
+  * node liri.js concert-this bandName: This command will allow the user to search the Bandsintown API for the upcoming events 
+  of the band that was inputted, and will print the name of the venue, the location of the venue, and the date (MM/DD/YYYY).
 * node liri.js movie-this movieName: This command will allow the user to search the OMDB API for information about the movie
   that was inputted, and will print the title of the movie, when it was released, the IMDB rating, the Rotten Tomatoes rating,
   the country it was produced in, the languages it was released in, a brief summary of the plot, and the actors in the movie.
