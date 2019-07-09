@@ -1,5 +1,5 @@
 {
-  "name": "LIri-Homework",
+  "name": "lirihomework",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -22,7 +22,7 @@
     "bandsintown": "^1.0.1",
     "dotenv": "^8.0.0",
     "inquirer": "^6.4.1",
-    "node-spotify-api": "^1.1.1",
-    "spotify": "^0.3.0"
+    "node-spotify-api": "^1.1.1"
+    
   }
 }

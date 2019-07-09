@@ -37,12 +37,14 @@ Note: if the band name, song name, or movie name is more than one word, the user
 ## How to Use
 1. Clone this repository onto your computer.
 2. Open the command line (Git Bash, Terminal) and navigate to the Liri-Node-App folder.
-![images](/images)
+![images](liri-homework/images/openterminal.jpg)
 3. Input one of the commands listed above with a band name, song, or movie title, and press Enter.
-![images](/images)
 4. You should now have information about that band, song, or movie.
-![images](/images/)
-![images](/images/)
-![images](/images/)
-![images](/images/)
-Note: the 'random.txt' file currently contains 'spotify-this-song,"Sucker"'.
+![images](liri-homework/images/Capture spotify this song.jpg)
+![images](liri-homework/images/Capture concert this.jpg)
+![Images](liri-homework/images/Capture imput comands.jpg)
+![images](liri-homework/images/Capture keys.jpg)
+![images](liri-homework/images/Capture pgsgjs.jpg)
+![images](liri-homework/images/Capture package jason.jpg)
+Note: the 'random.txt' file currently contains spotify-this-song,"I Want it That Way"
+![images](liri-homework/images/Capturerandomtext.jpg)
